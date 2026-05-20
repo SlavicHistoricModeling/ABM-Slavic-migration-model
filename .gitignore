@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Local-only scratch
+*.patched_tmp
+*.patched_backup
+/tmp/
+
+# Build artefacts (e.g. matplotlib's `--plot` output if regenerated locally)
+figure1.png
+
+# Per-run engine outputs in the working tree that aren't the canonical
+# committed `results_*.txt` snapshots (those ARE checked in for
+# reproducibility). To regenerate without overwriting committed
+# canonicals, write outputs to a separate directory.
+#
+# Note: the canonical results_*.txt at the repository root ARE
+# checked in — they are the canonical per-cell artefacts that the
+# four figure-generation scripts read. Do NOT add `results_*.txt`
+# to this ignore file.

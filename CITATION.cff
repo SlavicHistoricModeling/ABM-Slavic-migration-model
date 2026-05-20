@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+title: >-
+  Slavic Migration ABM — replication package for a model-behaviour
+  study of a Kandler-family demographic ABM, applied to the case of
+  Slavic linguistic expansion (c. 600–860 CE).
+message: >-
+  If you use this software or its outputs, please cite both the
+  accompanying journal paper and this archived code release.
+authors:
+  - given-names: Stojan
+    family-names: Trajkov
+    email: stojan.trajkov@gmail.com
+    # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"   # TODO: add ORCID before push
+    # affiliation: "TODO: affiliation"                # TODO: add affiliation before push
+type: software
+repository-code: "https://github.com/USER/REPO"        # TODO: replace with the actual GitHub URL before push
+license: MIT
+version: "1.0.0"
+date-released: "2026-05-20"
+keywords:
+  - agent-based model
+  - linguistic dynamics
+  - model behaviour
+  - Slavic expansion
+  - Kandler model
+  - reproducibility
+abstract: >-
+  Replication package for a model-behaviour study of a Kandler-family
+  demographic agent-based model, motivated by the case of Slavic
+  linguistic expansion in the early-medieval Balkans (c. 600–860 CE)
+  and calibrated against the documented Arabic expansion
+  (c. 630–800 CE). The package contains the engine (frozen at
+  commit 37054ac), all sweep scripts, the canonical per-cell run
+  artefacts, the per-sweep durable record logs, and the
+  paper-ready ODD-protocol model description, parameter
+  justification table, results tables, four figures with
+  generator scripts, and the reproducibility statement covering
+  five inherited implementation defects identified and corrected
+  during the systematic verification of the inherited
+  published model.
+preferred-citation:
+  type: article
+  authors:
+    - given-names: Stojan
+      family-names: Trajkov
+  title: "TODO: paper title"            # TODO: replace with final paper title before push
+  journal: "Journal of Artificial Societies and Social Simulation"
+  year: 2026                            # TODO: confirm year-of-publication before push
+  # doi: "10.XXXX/XXXXXX"               # TODO: add DOI after acceptance

@@ -1,0 +1,18 @@
+Scenario: slavic2 | Runs: 10 | Substrate: True | Birth Vary: +/-0.0% | migration_override: None | no_plague: False | uniform_mortality: False | inheritance_age_max: None | substrate_fraction: 0.3 | non_slavic_plague_mortality: None | seed: 42
+Avg Final Proportion: 49.55% (+/-5.84%)
+Population checkpoints (year_offset: mean [min..max]):
+  year   0:    4573  [ 4530.. 4620]
+  year  25:    4275  [ 4191.. 4366]
+  year  50:    4717  [ 4569.. 4852]
+  year 100:    6588  [ 6313.. 6794]
+  year 150:    7137  [ 6903.. 7579]
+  year 200:    7863  [ 7391.. 8524]
+  year 260:    8951  [ 7891.. 9928]
+Slavic-share checkpoints (year_offset: mean +/- SD):
+  year   0: 31.87% +/- 0.30%
+  year  25: 33.74% +/- 1.36%
+  year  50: 33.83% +/- 1.58%
+  year 100: 40.73% +/- 2.21%
+  year 150: 38.24% +/- 4.48%
+  year 200: 42.34% +/- 5.52%
+  year 260: 49.55% +/- 5.84%

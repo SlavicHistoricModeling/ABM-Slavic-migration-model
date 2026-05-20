@@ -1,0 +1,18 @@
+Scenario: arabic | Runs: 10 | Substrate: False | Birth Vary: +/-0.0% | migration_override: None | no_plague: False | uniform_mortality: False | inheritance_age_max: None | substrate_fraction: None | non_slavic_plague_mortality: 0.12 | seed: 42
+Avg Final Proportion: 35.95% (+/-2.18%)
+Population checkpoints (year_offset: mean [min..max]):
+  year   0:    4511  [ 4472.. 4535]
+  year  25:    4408  [ 4304.. 4538]
+  year  50:    4760  [ 4589.. 5017]
+  year 100:    5535  [ 5289.. 5859]
+  year 150:    5881  [ 5439.. 6314]
+  year 200:    6027  [ 5660.. 6515]
+  year 260:    6027  [ 5660.. 6515]
+Slavic-share checkpoints (year_offset: mean +/- SD):
+  year   0:  5.62% +/- 0.09%
+  year  25: 12.77% +/- 0.54%
+  year  50: 18.77% +/- 0.89%
+  year 100: 29.57% +/- 1.19%
+  year 150: 33.86% +/- 1.78%
+  year 200: 35.95% +/- 2.18%
+  year 260: 35.95% +/- 2.18%

@@ -1,0 +1,13 @@
+# Python dependencies for the Slavic-migration ABM (engine commit 37054ac).
+#
+# The engine is frozen at Python 3.13.x on x86-64. The numpy and matplotlib
+# pins below are the major-version baselines confirmed to work with the
+# engine and the figure-generation scripts. Other versions in the same
+# major-version line are expected to work but have not been formally
+# verified.
+#
+# All other engine imports (random, csv, statistics, argparse, sys, time)
+# are Python standard library.
+
+numpy>=1.26,<3
+matplotlib>=3.8,<4
