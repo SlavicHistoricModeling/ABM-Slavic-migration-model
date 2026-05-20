@@ -13,7 +13,7 @@ authors:
     # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"   # TODO: add ORCID before push
     # affiliation: "TODO: affiliation"                # TODO: add affiliation before push
 type: software
-repository-code: "https://github.com/USER/REPO"        # TODO: replace with the actual GitHub URL before push
+repository-code: "https://github.com/SlavicHistoricModeling/ABM-Slavic-migration-model"
 license: MIT
 version: "1.0.0"
 date-released: "2026-05-20"

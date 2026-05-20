@@ -1,0 +1,23 @@
+{
+  "title": "Slavic Migration ABM — replication package",
+  "description": "Replication package for a model-behaviour study of a Kandler-family demographic agent-based model, motivated by the case of Slavic linguistic expansion in the early-medieval Balkans (c. 600–860 CE) and calibrated against the documented Arabic expansion (c. 630–800 CE). Engine frozen at commit 37054ac; all numbers reproducible at seed 42 with 10 runs per parameter combination on Python 3.13.x on x86-64. Includes the ~156 canonical per-cell run artefacts, the per-sweep durable records, the ODD-protocol model description, the parameter justification table, and the four figures with their generator scripts. Five inherited implementation defects from the original DIA-25063 listing identified and corrected; the audit trail is the paper's methodological contribution.",
+  "creators": [
+    {
+      "name": "Trajkov, Stojan"
+    }
+  ],
+  "keywords": [
+    "agent-based model",
+    "linguistic dynamics",
+    "model behaviour",
+    "Slavic expansion",
+    "Kandler model",
+    "reproducibility",
+    "ODD protocol",
+    "JASSS"
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "language": "eng",
+  "access_right": "open"
+}
